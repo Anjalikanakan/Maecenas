@@ -1,0 +1,222 @@
+@media (max-width: 575px) {
+
+    .ps-0 {
+        padding-left: 15px !important;
+    }
+
+    .pe-0 {
+        padding-right: 15px !important;
+    }
+
+    section .section-title p {
+        line-height: 24px;
+    }
+
+    #footer .footer-top p {
+        text-align: left;
+        padding-top: 10px;
+        line-height: 24px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    br {
+        content: "";
+    }
+
+
+    #footer .footer-newsletter form {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    #footer .footer-bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: center !important;
+    }
+
+    #footer .copyright {
+        text-align: center;
+        float: none;
+        margin-top: 15px;
+    }
+
+    #footer .credits {
+        padding-top: 4px;
+    }
+
+    #footer .footer-top hr {
+        border-top: 1px solid #fff;
+        border-right: 0;
+        width: 100%;
+        height: 1px;
+        margin: 1rem 0;
+    }
+
+    #footer .footer-top h4 {
+        margin-right: 30px;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+
+    .mobile-nav-ul {
+        display: flex !important;
+        position: relative;
+        z-index: 0 !important;
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    #header .logo {
+        width: 80px;
+    }
+
+    .navbar ul:not(.mobile-li) {
+        display: none;
+    }
+
+    .navbar-mobile .dropdown ul {
+        box-shadow: none !important;
+    }
+
+    .navbar .dropdown ul li:hover a {
+        background: none !important;
+        padding-left: 0 !important;
+    }
+
+    .mobile-li {
+        margin-right: 20px !important;
+    }
+
+    .navbar-mobile .mobile-li {
+        display: none !important;
+    }
+
+    .mobile-li a.lang,
+    .mobile-li a.search,
+    .mobile-li a.user {
+        margin-left: 22px;
+    }
+
+    .navbar:not(.mobile-li) a.lang,
+    .navbar:not(.mobile-li) a.search,
+    .navbar:not(.mobile-li) a.user {
+        display: none;
+    }
+
+    .navbar-mobile a:focus {
+        color: #7A0A2A !important;
+    }
+
+    .right-arrow,
+    .left-arrow {
+        display: none !important;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: unset !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        bottom: unset !important;
+    }
+
+    .carousel-control-next {
+        left: 45px !important;
+        right: unset !important;
+    }
+
+    .carousel-slide {
+        margin-bottom: 10px;
+    }
+
+    #gallery .gallery-sec .carousel .carousel-slide.shadow-1 {
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+    }
+
+    section .section-title h2 {
+        white-space: nowrap;
+    }
+
+    #supporting-company-1 .services ul {
+        padding-left: 15px !important;
+    }
+
+    #supporting-company-2 .supporting-fields ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    #finance .learn-more {
+        display: none;
+    }
+
+    #social-media .media-feeds .platforms {
+        flex-wrap: wrap;
+    }
+
+    .toggle-button {
+        width: 80%;
+    }
+
+    #supporting-company-1 .services .diamond-shape {
+        padding: 10px;
+    }
+
+    #footer .footer-top form input[type=email] {
+        width: 100%;
+    }
+
+    #gallery .gallery-sec .carousel-control-next,
+    #gallery .gallery-sec .carousel-control-prev {
+        justify-content: flex-start !important
+    }
+
+    #gallery .gallery-sec .carousel-control-prev {
+        right: unset !important;
+    }
+
+    #gallery .carousel-indicators {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 991px) {
+    .mobile-li {
+        display: none !important;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    section .section-title .right-arrow {
+        width: 64% !important;
+    }
+
+    section .section-title .left-arrow {
+        width: 2% !important;
+    }
+}
+
+@media (min-width: 1600px) {
+    section .section-title .left-arrow {
+        width: 10%;
+    }
+
+    #supporting-company-2 .section-title .right-arrow,
+    #supporting-company-1 .section-title .right-arrow,
+    section .section-title .right-arrow {
+        width: 62% !important;
+    }
+}
